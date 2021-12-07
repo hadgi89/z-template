@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<title>Zim</title>
+
+<!-- Favicon icon -->
+<link rel="icon" href="assets/images/favicon.svg" type="image/x-icon">
+
+<!-- font css -->
+<script src="https://unpkg.com/feather-icons"></script>
+
+<!-- Bootstrap -->
+<link href="bs-dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles -->
+<link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--  [ Navigation menu ]   -->
+<nav class="sidebar-wrapper">
+  
+  <!-- <div class="navbar-wrapper"> -->
+    <div class="mheader">
+      <a href="index.html" class="">
+        <img src="assets/images/logo.svg" alt="" class="">
+      </a>
+    </div>
+    
+    <div class="navbar-content">
+      <ul class="nav flex-column">
+        
+        <li class="nav-item mcaption">
+          <label>Проекти</label>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="micon">
+              <i data-feather="grid"></i>
+            </span>
+            <span class="mtext">Проекти</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mcaption">
+          <label>Діловодство</label>
+          <span>UI Components</span>
+        </li>
+
+        <li class="nav-item">
+          <a href="#!" class="nav-link">
+            <span class="micon">
+              <i data-feather="inbox"></i>
+            </span>
+            <span class="mtext">Кореспонденція</span>
+            <span class="marrow">
+              <i data-feather="chevron-right"></i>
+            </span>
+          </a>
+          <ul class="submenu">
+            <li class="nav-item"><a class="nav-link" href="#">&nbspВхідна</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">&nbspВихідна</a></li>
+          </ul>
+        </li>
+
+
+      </ul>
+    </div>
+  <!-- </div> -->
+</nav>
+
+
+<!-- [ Header ]  -->
+<header class="header-wrapper">
+
+    <!-- [ head > LEFT menu ] start -->
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search here ...">
+        <a class="hlink " data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+          <i data-feather="search"></i>
+        </a>
+      </div>
+
+    <!-- [ head > RIGHT menu ] start -->
+    <div class="ml-auto">
+      <ul class="list-unstyled">
+
+
+        <!-- [ head > USER menu] start -->
+        <li class="dropdown hitem">
+          <a class="hlink dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+            <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
+            <span>
+                              <span class="user-name">Joseph William</span>
+                              <span class="user-desc">Administrator</span>
+                          </span>
+          </a>
+
+          <div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
+            <a href="#" class="dropdown-item">
+              <i class="material-icons-two-tone">account_circle</i>
+              <span>My Account</span>
+            </a>
+            <div class="pc-level-menu">
+              <a href="#" class="dropdown-item">
+                <i class="material-icons-two-tone">list_alt</i>
+                <span class="float-right"><i data-feather="chevron-right" class="mr-0"></i></span>
+                <span>Level2.1</span>
+              </a>
+              <div class="dropdown-menu pc-h-dropdown">
+                <a href="#" class="dropdown-item">
+                  <i class="fas fa-circle"></i>
+                  <span>My Account</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <i class="fas fa-circle"></i>
+                  <span>Settings</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <i class="fas fa-circle"></i>
+                  <span>Support</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <i class="fas fa-circle"></i>
+                  <span>Lock Screen</span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <i class="fas fa-circle"></i>
+                  <span>Logout</span>
+                </a>
+              </div>
+            </div>
+            <a href="#" class="dropdown-item">
+              <i class="material-icons-two-tone">settings</i>
+              <span>Settings</span>
+            </a>
+            <a href="#" class="dropdown-item">
+              <i class="material-icons-two-tone">support</i>
+              <span>Support</span>
+            </a>
+            <a href="#" class="dropdown-item">
+              <i class="material-icons-two-tone">https</i>
+              <span>Lock Screen</span>
+            </a>
+            <a href="#" class="dropdown-item">
+              <i class="material-icons-two-tone">chrome_reader_mode</i>
+              <span>Logout</span>
+            </a>
+
+            <!--                            <div class=" dropdown-header">-->
+            <!--                                <h5 class="text-overflow m-0"><span class="badge bg-light-secondary">Free Version</span></h5>-->
+            <!--                            </div>-->
+
+            <!--                            <a href="auth-signin.html" class="dropdown-item">-->
+            <!--                                <i class="material-icons-two-tone">chrome_reader_mode</i>-->
+            <!--                                <span>Logout</span>-->
+            <!--                            </a>-->
+          </div>
+
+        </li>
+        <!-- [ head > USER menu] end -->
+
+      </ul>
+    </div>
+
+</header>
+
+
+<!-- [ Main Content ]  -->
+<div class="pc-container">
+  <div class="pcoded-content">
+    
+    <!-- [ breadcrumb ] start -->
+    <div class="page-header">
+      <div class="page-block">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="page-header-title">
+              <h5 class="m-b-10">Dashboard sale</h5>
+            </div>
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item">Dashboard sale</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- [ breadcrumb ] end -->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>Hello card</h5>
+            </div>
+            <div class="card-body">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  feather.replace()
+</script>
+<script src="bs-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

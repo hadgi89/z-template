@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: #eceff1;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------- */
+
+
+.sidebar-wrapper {
+    background: #37474f;
+    width: 280px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1026;
+}
+.sidebar-wrapper ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.sidebar-wrapper .mheader {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    background: #37474f;
+}
+
+.sidebar-wrapper .m .logo-sm {
+    display: none;
+}
+
+.sidebar-wrapper .navbar-content {
+    position: relative;
+    height: calc(100vh - 70px);
+    padding: 10px 0;
+}
+
+
+.sidebar-wrapper .mtext {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* ------------------------------------ */
+.sidebar-wrapper .mcaption {
+    color: #7267EF;
+    display: block;
+    padding: 15px 20px 10px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.sidebar-wrapper .mcaption label {
+    margin-bottom: 0;
+}
+
+.sidebar-wrapper .mcaption span:not(.badge) {
+    display: block;
+    color: #67758A;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* ------------------------------------ */
+
+.sidebar-wrapper .micon {
+    margin-right: 10px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sidebar-wrapper .micon > svg {
+    width: 20px;
+    height: 20px;
+    color: #b0bec5;
+}
+
+/* ------------------------------------ */
+
+.sidebar-wrapper .nav-link {
+    display: block;
+    padding: 13px 20px;
+    color: #b0bec5;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* .sidebar-wrapper .nav-link:active,
+.sidebar-wrapper .nav-link:focus,
+.sidebar-wrapper .nav-link:hover {
+    text-decoration: none;
+    color: #eceff1;
+} */
+
+.sidebar-wrapper .nav-item.active > .nav-link,
+.sidebar-wrapper .nav-item:focus > .nav-link,
+.sidebar-wrapper .nav-item:hover > .nav-link {
+    color: #7267EF;
+}
+
+.sidebar-wrapper .nav > .nav-item.active > .nav-link,
+.sidebar-wrapper .nav > .nav-item:focus > .nav-link,
+.sidebar-wrapper .nav > .nav-item:hover > .nav-link {
+    background: #263238;
+}
+
+/* .sidebar-wrapper .nav-item.active > .nav-link .micon i, */
+.sidebar-wrapper .nav-item.active > .nav-link .micon svg,
+/* .sidebar-wrapper .nav-item:focus > .nav-link .micon i, */
+.sidebar-wrapper .nav-item:focus > .nav-link .micon svg,
+/* .sidebar-wrapper .nav-item:hover > .nav-link .micon i, */
+.sidebar-wrapper .nav-item:hover > .nav-link .micon svg {
+    color: #7267EF;
+}
+
+/* ------------------------------------ */
+
+
+/* .sidebar-wrapper .marrow {
+    float: right; 
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+} */
+
+.sidebar-wrapper .marrow > svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* ------------------------------------ */
+
+
+.sidebar-wrapper .submenu .nav-link {
+    padding: 5px 0px 5px 50px;
+}
+
+.sidebar-wrapper .submenu .submenu .nav-link {
+    padding: 5px 0px 5px 85px;
+}
+
+.sidebar-wrapper .submenu .submenu .submenu .nav-link {
+    padding: 5px 0px 5px 105px;
+}
+
+
+/* ------------------------------------ */
+.header-wrapper{
+    background: #cfd8dc;
+    color: #263238;
+    min-height: 70px;
+    position: fixed;
+    left: 280px;
+    right: 0;
+    z-index: 1025;
+    display: flex;
+    padding: 0 30px;
+}
+
+.header-wrapper ul {
+    margin-bottom: 0;
+    display: inline-flex;
+}
+
+.header-wrapper .hitem {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-wrapper .hlink {
+    color: #263238;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.60rem 0.9rem;
+    margin: 0 5px;
+    border-radius: 4px;
+    position: relative;
+    font-weight: 500;
+}
+
+.header-wrapper .hlink > i {
+    font-size: 20px;
+    color: #7267EF;
+}
+
+
+
+
+
+
+
+
+
+
