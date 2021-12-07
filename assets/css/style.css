@@ -18,7 +18,7 @@ a:focus, a:hover {
 
 
 .sidebar-wrapper {
-    background: #37474f;
+    background: #1c232f;
     width: 280px;
     position: fixed;
     top: 0;
@@ -36,7 +36,7 @@ a:focus, a:hover {
     display: flex;
     align-items: center;
     padding: 15px 30px;
-    background: #37474f;
+    background: #1c232f;
 }
 
 .sidebar-wrapper .m .logo-sm {
@@ -90,7 +90,7 @@ a:focus, a:hover {
 .sidebar-wrapper .micon > svg {
     width: 20px;
     height: 20px;
-    color: #b0bec5;
+    color: #778290;
 }
 
 /* ------------------------------------ */
@@ -98,7 +98,7 @@ a:focus, a:hover {
 .sidebar-wrapper .nav-link {
     display: block;
     padding: 13px 20px;
-    color: #b0bec5;
+    color: #778290;
     font-size: 13px;
     font-weight: 500;
 }
@@ -113,13 +113,13 @@ a:focus, a:hover {
 .sidebar-wrapper .nav-item.active > .nav-link,
 .sidebar-wrapper .nav-item:focus > .nav-link,
 .sidebar-wrapper .nav-item:hover > .nav-link {
-    color: #7267EF;
+    color: #ced4dc;
 }
 
 .sidebar-wrapper .nav > .nav-item.active > .nav-link,
 .sidebar-wrapper .nav > .nav-item:focus > .nav-link,
 .sidebar-wrapper .nav > .nav-item:hover > .nav-link {
-    background: #263238;
+    background: #161c25;
 }
 
 /* .sidebar-wrapper .nav-item.active > .nav-link .micon i, */
@@ -128,7 +128,7 @@ a:focus, a:hover {
 .sidebar-wrapper .nav-item:focus > .nav-link .micon svg,
 /* .sidebar-wrapper .nav-item:hover > .nav-link .micon i, */
 .sidebar-wrapper .nav-item:hover > .nav-link .micon svg {
-    color: #7267EF;
+    color: #ced4dc;
 }
 
 /* ------------------------------------ */
@@ -163,7 +163,7 @@ a:focus, a:hover {
 
 /* ------------------------------------ */
 .header-wrapper{
-    background: #cfd8dc;
+    background: #fff;
     color: #263238;
     min-height: 70px;
     position: fixed;
