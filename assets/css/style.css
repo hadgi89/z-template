@@ -20,6 +20,28 @@
 #263238 - text - header link
 */
 
+/*
+font-family: 'Arimo', sans-serif;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Bitter', serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Play', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Prata', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
 
 /* ############# */
 /*?     MAIN     */
@@ -27,9 +49,22 @@
 
 body {
     margin: 0;
-    /* font-family: "Inter", sans-serif; */
-    font-family: 'Space Grotesk', sans-serif;
-    /* font-size: 0.875rem; */
+    /* font-family: 'Arimo', sans-serif; */
+    /* font-family: 'Balsamiq Sans', cursive; */
+    /* font-family: 'Bitter', serif; */
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    /* font-family: 'Mulish', sans-serif; */
+    /* font-family: 'Noto Sans', sans-serif; */
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: 'Play', sans-serif; */
+    /* font-family: 'Playfair Display SC', serif; */
+    /* font-family: 'Prata', serif; */
+    font-size: 0.875rem;
     letter-spacing: 0.07em;
     font-weight: 400;
     line-height: 1.5;
@@ -43,6 +78,77 @@ a, a:focus, a:hover {
     text-decoration: none;
 }
 
+.test {
+    color: #7267EF;
+    
+    /* font-family: 'Andika', sans-serif; */
+    /* font-family: 'Arimo', sans-serif; */
+    /* font-family: 'Bellota', cursive; */
+    /* font-family: 'Bitter', serif; */
+    /* font-family: 'Bona Nova', serif; */
+    /* font-family: 'Commissioner', sans-serif; */
+    /* font-family: 'Cousine', monospace; */
+    /* font-family: 'Didact Gothic', sans-serif; */
+    /* font-family: 'El Messiri', sans-serif; */
+    /* font-family: 'Exo 2', sans-serif; */
+    /* font-family: 'Fira Code', monospace; */
+    /* font-family: 'Fira Mono', monospace; */
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Gabriela', serif; */
+    /* font-family: 'IBM Plex Mono', monospace; */
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    /* font-family: 'IBM Plex Serif', serif; */
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Istok Web', sans-serif; */
+    /* font-family: 'JetBrains Mono', monospace; */
+    /* font-family: 'Jost', sans-serif; */
+    /* font-family: 'Jura', sans-serif; */
+    /* font-family: 'Kelly Slab', cursive; */
+    /** font-family: 'Kurale', serif; */
+    /* font-family: 'Literata', serif; */
+    /* font-family: 'Lora', serif; */
+    /* font-family: 'M PLUS 1p', sans-serif; */
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+    /* font-family: 'Marmelad', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    /* font-family: 'Mulish', sans-serif; */
+    /* font-family: 'Murecho', sans-serif; */
+    /* font-family: 'Noto Serif', serif; */
+    /** font-family: 'Nunito', sans-serif; */
+    /** font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Piazzolla', serif; */
+    /** font-family: 'Prata', serif; */
+    /* font-family: 'Prosto One', cursive; */
+    /* font-family: 'PT Mono', monospace; */
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'PT Sans Caption', sans-serif; */
+    /** font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /** font-family: 'Roboto Mono', monospace; */
+    /** font-family: 'Sawarabi Gothic', sans-serif; */
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Source Sans 3', sans-serif; */
+    /* font-family: 'Source Serif Pro', serif; */
+    /** font-family: 'Spectral SC', serif; */
+    /** font-family: 'Tenor Sans', sans-serif; */
+    /** font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Yeseva One', cursive; */
+    /** font-family: 'Zen Antique', serif; */
+    /** font-family: 'Zen Kaku Gothic Antique', sans-serif; */
+    /* font-family: 'Zen Kaku Gothic New', sans-serif; */
+    /* font-family: 'Zen Maru Gothic', sans-serif; */
+    /* font-weight: 800; */
+    /* font-weight: 800; */
+    /* font-weight: 600; */
+    /* font-weight: 500; */
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+}
+
 /* ################ */
 /*?     SideBar     */
 /* ################ */
@@ -50,6 +156,7 @@ a, a:focus, a:hover {
 .sidebar-wrapper {
     background: #1c232f;
     width: 280px;
+    /* height: 100%; */
     position: fixed;
     top: 0;
     bottom: 0;
@@ -71,7 +178,7 @@ a, a:focus, a:hover {
 
 .sidebar-wrapper .navbar-content {
     position: relative;
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
     padding: 10px 0;
 }
 
@@ -183,7 +290,7 @@ a, a:focus, a:hover {
 
 .header-wrapper{
     background: #fff;
-    color: #263238;
+    color: #525b69;
     min-height: 70px;
     position: fixed;
     left: 280px;
@@ -203,10 +310,11 @@ a, a:focus, a:hover {
     display: flex;
     align-items: center;
     position: relative;
+    padding: 10px 25px;
 }
 
 .header-wrapper .h-link {
-    color: #263238;
+    color: #525b69;
     display: inline-flex;
     align-items: center;
     padding: 0.60rem 0.9rem;
@@ -220,6 +328,156 @@ a, a:focus, a:hover {
     font-size: 20px;
     color: #7267EF;
 }
+
+.header-wrapper .h-link > i.material-icons-two-tone {
+    font-size: 24px;
+    background-color: #525b69;
+    vertical-align: bottom;
+}
+
+.header-wrapper .h-link > svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header-wrapper .h-link.active, 
+.header-wrapper .h-link:active, 
+.header-wrapper .h-link:focus, 
+.header-wrapper .h-link:hover {
+    text-decoration: none;
+    color: #7267EF;
+    background: #e3e1fc;
+}
+
+
+.header-wrapper .h-link.active i.material-icons-two-tone, 
+.header-wrapper .h-link:active i.material-icons-two-tone, 
+.header-wrapper .h-link:focus i.material-icons-two-tone, 
+.header-wrapper .h-link:hover i.material-icons-two-tone {
+    background-color: #7267EF;
+    color: #7267EF !important;
+}
+
+.dropdown-toggle.arrow-none:after {
+    display: none;
+}
+
+.header-wrapper .h-link .user-desc,
+.header-wrapper .h-link .user-name {
+    display: block;
+    line-height: 1;
+}
+
+.header-wrapper .h-link .user-name {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-wrapper .h-link .user-desc {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(82, 91, 105, 0.7);
+}
+
+.header-wrapper .user-avtar {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* .dropdown-menu.show {
+    display: block;
+} */
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 12rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 0.875rem;
+    color: #293240;
+    text-align: left;
+    list-style: none;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 0 solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.dropdown-menu {
+    padding: 15px 0;
+    box-shadow: 0 4px 24px 0 rgba(62, 57, 107, 0.18);
+    border: none;
+    border-radius: 2px;
+}
+
+/* .header-wrapper .dropdown-menu {
+    animation: 0.4s ease-in-out 0s normal forwards 1 fadein;
+} */
+
+
+.dropdown-menu-left {
+    right: auto;
+    left: 0;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.header-wrapper .dropdown.dropdown-menu-right {
+    right: 0 !important;
+    left: auto !important;
+}
+
+.header-wrapper .h-dropdown {
+    transform: none !important;
+    top: 100% !important;
+}
+
+.header-wrapper .h-item .h-dropdown {
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.65rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #293240;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item.active, 
+.dropdown-item:active,
+.dropdown-item:hover, 
+.dropdown-item:focus {
+    color: #7267EF;
+    text-decoration: none;
+    background-color: #e3e1fc;
+}
+
+
+.dropdown-item.disabled, 
+.dropdown-item:disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: transparent;
+}
+
+
+
+
 
 
 

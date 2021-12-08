@@ -14998,13 +14998,19 @@ body:not(.minimenu) .pc-sidebar .pc-submenu .pc-submenu .pc-submenu > .pc-item:b
     height: 20px;
 }
 
-.pc-header .pc-head-link.active, .pc-header .pc-head-link:active, .pc-header .pc-head-link:focus, .pc-header .pc-head-link:hover {
+.pc-header .pc-head-link.active, 
+.pc-header .pc-head-link:active, 
+.pc-header .pc-head-link:focus, 
+.pc-header .pc-head-link:hover {
     text-decoration: none;
     color: #7267EF;
     background: #e3e1fc;
 }
 
-.pc-header .pc-head-link.active .hamburger .hamburger-inner, .pc-header .pc-head-link:active .hamburger .hamburger-inner, .pc-header .pc-head-link:focus .hamburger .hamburger-inner, .pc-header .pc-head-link:hover .hamburger .hamburger-inner {
+.pc-header .pc-head-link.active .hamburger .hamburger-inner, 
+.pc-header .pc-head-link:active .hamburger .hamburger-inner, 
+.pc-header .pc-head-link:focus .hamburger .hamburger-inner, 
+.pc-header .pc-head-link:hover .hamburger .hamburger-inner {
     background-color: #7267EF;
 }
 
