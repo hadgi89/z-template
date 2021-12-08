@@ -1,21 +1,51 @@
+@charset "UTF-8";
+/*!     COLORS     */
+/*
+#eceff1  - background - body
+#f0f2f8
+#293240 - text - body
+
+#1c232f - background - sidebar
+#7267EF - text - sidebar caption
+#67758A - text - sidebar span
+#778290 - text - sidebar icon [svg]
+#778290 - text - sidebar link
+#ced4dc - text - sidebar link (active + focus + hover)
+#161c25 - background - sidebar link (active + focus + hover)
+#ced4dc - text - sidebar  icon (active + focus + hover) [svg]
+
+
+#fff - background - header
+#263238 - text - header
+#263238 - text - header link
+*/
+
+
+/* ############# */
+/*?     MAIN     */
+/* ############# */
+
 body {
     margin: 0;
-    overflow-x: hidden;
+    /* font-family: "Inter", sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
+    /* font-size: 0.875rem; */
+    letter-spacing: 0.07em;
+    font-weight: 400;
+    line-height: 1.5;
+    /* overflow-x: hidden; */
+    color: #293240;
     background: #eceff1;
 }
 
-a {
+a, a:focus, a:hover {
     outline: none;
     text-decoration: none;
 }
 
-a:focus, a:hover {
-    outline: none;
-    text-decoration: none;
-}
-
-/* ---------------------------------------------------------- */
-
+/* ################ */
+/*?     SideBar     */
+/* ################ */
 
 .sidebar-wrapper {
     background: #1c232f;
@@ -31,7 +61,7 @@ a:focus, a:hover {
     margin-bottom: 0;
 }
 
-.sidebar-wrapper .mheader {
+.sidebar-wrapper .m-header {
     height: 70px;
     display: flex;
     align-items: center;
@@ -39,61 +69,11 @@ a:focus, a:hover {
     background: #1c232f;
 }
 
-.sidebar-wrapper .m .logo-sm {
-    display: none;
-}
-
 .sidebar-wrapper .navbar-content {
     position: relative;
     height: calc(100vh - 70px);
     padding: 10px 0;
 }
-
-
-.sidebar-wrapper .mtext {
-    font-size: 14px;
-    font-weight: 500;
-}
-
-
-/* ------------------------------------ */
-.sidebar-wrapper .mcaption {
-    color: #7267EF;
-    display: block;
-    padding: 15px 20px 10px;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 600;
-}
-
-.sidebar-wrapper .mcaption label {
-    margin-bottom: 0;
-}
-
-.sidebar-wrapper .mcaption span:not(.badge) {
-    display: block;
-    color: #67758A;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-/* ------------------------------------ */
-
-.sidebar-wrapper .micon {
-    margin-right: 10px;
-    height: 24px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.sidebar-wrapper .micon > svg {
-    width: 20px;
-    height: 20px;
-    color: #778290;
-}
-
-/* ------------------------------------ */
 
 .sidebar-wrapper .nav-link {
     display: block;
@@ -103,7 +83,8 @@ a:focus, a:hover {
     font-weight: 500;
 }
 
-/* .sidebar-wrapper .nav-link:active,
+/* 
+.sidebar-wrapper .nav-link:active,
 .sidebar-wrapper .nav-link:focus,
 .sidebar-wrapper .nav-link:hover {
     text-decoration: none;
@@ -122,31 +103,65 @@ a:focus, a:hover {
     background: #161c25;
 }
 
-/* .sidebar-wrapper .nav-item.active > .nav-link .micon i, */
-.sidebar-wrapper .nav-item.active > .nav-link .micon svg,
-/* .sidebar-wrapper .nav-item:focus > .nav-link .micon i, */
-.sidebar-wrapper .nav-item:focus > .nav-link .micon svg,
-/* .sidebar-wrapper .nav-item:hover > .nav-link .micon i, */
-.sidebar-wrapper .nav-item:hover > .nav-link .micon svg {
+/* .sidebar-wrapper .nav-item.active > .nav-link .m-icon i, */
+.sidebar-wrapper .nav-item.active > .nav-link .m-icon svg,
+/* .sidebar-wrapper .nav-item:focus > .nav-link .m-icon i, */
+.sidebar-wrapper .nav-item:focus > .nav-link .m-icon svg,
+/* .sidebar-wrapper .nav-item:hover > .nav-link .m-icon i, */
+.sidebar-wrapper .nav-item:hover > .nav-link .m-icon svg {
     color: #ced4dc;
 }
 
-/* ------------------------------------ */
+.sidebar-wrapper .m-caption {
+    color: #7267EF;
+    display: block;
+    padding: 15px 20px 10px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
 
+.sidebar-wrapper .m-caption label {
+    margin-bottom: 0;
+}
 
-/* .sidebar-wrapper .marrow {
+.sidebar-wrapper .m-caption span {
+    display: block;
+    color: #67758A;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.sidebar-wrapper .m-icon {
+    margin-right: 10px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sidebar-wrapper .m-icon > svg {
+    width: 20px;
+    height: 20px;
+    color: #778290;
+}
+
+.sidebar-wrapper .m-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* .sidebar-wrapper .m-arrow {
     float: right; 
     display: inline-block;
     transition: all 0.2s ease-in-out;
 } */
 
-.sidebar-wrapper .marrow > svg {
+.sidebar-wrapper .m-arrow > svg {
     width: 16px;
     height: 16px;
 }
-
-/* ------------------------------------ */
-
 
 .sidebar-wrapper .submenu .nav-link {
     padding: 5px 0px 5px 50px;
@@ -161,7 +176,11 @@ a:focus, a:hover {
 }
 
 
-/* ------------------------------------ */
+
+/* ############### */
+/*?     Header     */
+/* ############### */
+
 .header-wrapper{
     background: #fff;
     color: #263238;
@@ -179,14 +198,14 @@ a:focus, a:hover {
     display: inline-flex;
 }
 
-.header-wrapper .hitem {
+.header-wrapper .h-item {
     min-height: 70px;
     display: flex;
     align-items: center;
     position: relative;
 }
 
-.header-wrapper .hlink {
+.header-wrapper .h-link {
     color: #263238;
     display: inline-flex;
     align-items: center;
@@ -197,7 +216,7 @@ a:focus, a:hover {
     font-weight: 500;
 }
 
-.header-wrapper .hlink > i {
+.header-wrapper .h-link > i {
     font-size: 20px;
     color: #7267EF;
 }
