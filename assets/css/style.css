@@ -300,66 +300,25 @@ a, a:focus, a:hover {
     padding: 0 30px;
 }
 
-.header-wrapper ul {
-    margin-bottom: 0;
-    display: inline-flex;
-}
-
-.header-wrapper .h-item {
-    min-height: 70px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 10px 25px;
-}
-
 .header-wrapper .h-link {
     color: #525b69;
     display: inline-flex;
     align-items: center;
     padding: 0.60rem 0.9rem;
-    margin: 0 5px;
+    margin: 5px 5px;
     border-radius: 4px;
     position: relative;
     font-weight: 500;
 }
 
-.header-wrapper .h-link > i {
-    font-size: 20px;
-    color: #7267EF;
-}
-
-.header-wrapper .h-link > i.material-icons-two-tone {
-    font-size: 24px;
-    background-color: #525b69;
-    vertical-align: bottom;
-}
-
-.header-wrapper .h-link > svg {
-    width: 20px;
-    height: 20px;
-}
-
-.header-wrapper .h-link.active, 
-.header-wrapper .h-link:active, 
-.header-wrapper .h-link:focus, 
-.header-wrapper .h-link:hover {
-    text-decoration: none;
-    color: #7267EF;
-    background: #e3e1fc;
-}
-
-
-.header-wrapper .h-link.active i.material-icons-two-tone, 
-.header-wrapper .h-link:active i.material-icons-two-tone, 
-.header-wrapper .h-link:focus i.material-icons-two-tone, 
-.header-wrapper .h-link:hover i.material-icons-two-tone {
-    background-color: #7267EF;
-    color: #7267EF !important;
-}
-
 .dropdown-toggle.arrow-none:after {
     display: none;
+}
+
+.header-wrapper .user-avatar {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
 
 .header-wrapper .h-link .user-desc,
@@ -377,20 +336,72 @@ a, a:focus, a:hover {
 .header-wrapper .h-link .user-desc {
     font-size: 12px;
     font-weight: 400;
-    color: rgba(82, 91, 105, 0.7);
+    color: #525b69b3;
 }
 
-.header-wrapper .user-avtar {
-    width: 40px;
-    margin-right: 10px;
-    border-radius: 50%;
+.header-wrapper .h-link.active, 
+.header-wrapper .h-link:active, 
+.header-wrapper .h-link:focus, 
+.header-wrapper .h-link:hover {
+    text-decoration: none;
+    color: #7267EF;
+    background: #e3e1fc;
 }
+
+
+
+
+/* .header-wrapper .h-link > i {
+    font-size: 20px;
+    color: #7267EF;
+} */
+
+/* .header-wrapper .h-link > i.material-icons-two-tone {
+    font-size: 24px;
+    background-color: #525b69;
+    vertical-align: bottom;
+} */
+
+/* .header-wrapper .h-link > svg {
+    width: 20px;
+    height: 20px;
+} */
+
+
+
+
+/* .header-wrapper .h-link.active i.material-icons-two-tone, 
+.header-wrapper .h-link:active i.material-icons-two-tone, 
+.header-wrapper .h-link:focus i.material-icons-two-tone, 
+.header-wrapper .h-link:hover i.material-icons-two-tone {
+    background-color: #7267EF;
+    color: #7267EF !important;
+} */
+
+
+
+
+
+/* .header-wrapper ul {
+    margin-bottom: 0;
+    display: inline-flex;
+} */
+
+/* .header-wrapper .h-item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 25px;
+} */
+
+
 
 /* .dropdown-menu.show {
     display: block;
 } */
 
-.dropdown-menu {
+/* .dropdown-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -407,45 +418,45 @@ a, a:focus, a:hover {
     background-clip: padding-box;
     border: 0 solid rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
+} */
 
-.dropdown-menu {
+/* .dropdown-menu {
     padding: 15px 0;
     box-shadow: 0 4px 24px 0 rgba(62, 57, 107, 0.18);
     border: none;
     border-radius: 2px;
-}
+} */
 
 /* .header-wrapper .dropdown-menu {
     animation: 0.4s ease-in-out 0s normal forwards 1 fadein;
 } */
 
 
-.dropdown-menu-left {
+/* .dropdown-menu-left {
     right: auto;
     left: 0;
-}
-.dropdown-menu-right {
+} */
+/* .dropdown-menu-right {
     right: 0;
     left: auto;
-}
+} */
 
-.header-wrapper .dropdown.dropdown-menu-right {
+/* .header-wrapper .dropdown.dropdown-menu-right {
     right: 0 !important;
     left: auto !important;
-}
+} */
 
-.header-wrapper .h-dropdown {
+/* .header-wrapper .h-dropdown {
     transform: none !important;
     top: 100% !important;
-}
+} */
 
-.header-wrapper .h-item .h-dropdown {
+/* .header-wrapper .h-item .h-dropdown {
     left: 0 !important;
     right: 0 !important;
-}
+} */
 
-.dropdown-item {
+/* .dropdown-item {
     display: block;
     width: 100%;
     padding: 0.65rem 1.5rem;
@@ -456,24 +467,24 @@ a, a:focus, a:hover {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
-}
+} */
 
-.dropdown-item.active, 
+/* .dropdown-item.active, 
 .dropdown-item:active,
 .dropdown-item:hover, 
 .dropdown-item:focus {
     color: #7267EF;
     text-decoration: none;
     background-color: #e3e1fc;
-}
+} */
 
 
-.dropdown-item.disabled, 
+/* .dropdown-item.disabled, 
 .dropdown-item:disabled {
     color: #6c757d;
     pointer-events: none;
     background-color: transparent;
-}
+} */
 
 
 
