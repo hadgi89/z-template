@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 <meta charset="utf-8">
@@ -15,9 +15,6 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Shar"
       rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alice&family=Andika&family=Arimo&family=Bellota&family=Bitter&family=Bona+Nova&family=Commissioner&family=Cousine&family=Didact+Gothic&family=El+Messiri&family=Exo+2&family=Fira+Code&family=Fira+Mono&family=Fira+Sans&family=Gabriela&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=IBM+Plex+Serif&family=Inter&family=Istok+Web&family=JetBrains+Mono&family=Jost&family=Jura&family=Kelly+Slab&family=Kurale&family=Literata&family=Lora&family=M+PLUS+1p&family=M+PLUS+Rounded+1c&family=Marmelad&family=Merriweather&family=Montserrat&family=Montserrat+Alternates&family=Mulish&family=Murecho&family=Noto+Serif&family=Nunito&family=Nunito+Sans&family=Open+Sans&family=PT+Mono&family=PT+Sans&family=PT+Sans+Caption&family=Piazzolla&family=Prata&family=Prosto+One&family=Raleway&family=Roboto&family=Roboto+Mono&family=Sawarabi+Gothic&family=Source+Code+Pro&family=Source+Sans+3&family=Source+Serif+Pro&family=Spectral+SC&family=Tenor+Sans&family=Ubuntu&family=Yeseva+One&family=Zen+Antique&family=Zen+Kaku+Gothic+Antique&family=Zen+Kaku+Gothic+New&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 
 <!-- Bootstrap -->
 <link href="bs-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +27,7 @@
 <body>
 
 <!--  [ Navigation menu ]   -->
-<nav class="sidebar-wrapper" style="font-family: 'Nunito Sans', sans-serif;">
+<nav class="sidebar-wrapper">
 
   <div class="m-header">
     <a href="index.html" class="">
@@ -81,8 +78,8 @@
 
 
 <!-- [ Header ]  -->
-<header class="header-wrapper">
-
+<header class="pc-header">
+  <div class="header-wrapper">
     <!-- [ head > LEFT menu ] start -->
     <div class="input-group align-items-center">
       <input type="text" class="form-control" placeholder="Search here ...">
@@ -92,73 +89,46 @@
     </div>
 
     <!-- [ head > RIGHT menu ] start -->
-    
-    <div class="dropdown h-item">
-      <a class="h-link btn dropdown-toggle arrow-none shadow-none" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="dropdown pc-h-item" style="border: solid 1px red;">
+      <a class="pc-head-link btn dropdown-toggle arrow-none" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
         <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avatar">
         <span>
           <span class="user-name">Joseph William</span>
           <span class="user-desc">Administrator</span>
         </span>
       </a>
-    
-      <div class="dropdown-menu dropdown-menu-right h-dropdown" aria-labelledby="dropdownMenuLink">
-          <a href="#" class="dropdown-item h-link">
-            <i class="material-icons-two-tone">account_circle</i>
-            <span>My Account</span>
-          </a>
+
+      <ul class="dropdown-menu dropdown-menu-end h-dropdown" aria-labelledby="dropdownMenuLink">
+        <li>
           <a href="#" class="dropdown-item">
             <i class="material-icons-two-tone">account_circle</i>
             <span>My Account</span>
           </a>
+        </li>
+        <li>
+          <a href="#" class="dropdown-item">
+            <i class="material-icons-two-tone">account_circle</i>
+            <span>My Account</span>
+          </a>
+        </li>
+        <li>
           <a href="#" class="dropdown-item">
             <i class="material-icons-two-tone">settings</i>
             <span>Settings</span>
           </a>
-      </div>
-    </div>
-    
-    
-<!-- 
-    <div class="ml-auto">
-      <ul class="list-unstyled">
-        <li class="dropdown h-item">
-          <a class="h-link dropdown-toggle arrow-none mr-0" data-bs-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-            <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
-            <span>
-              <span class="user-name">Joseph William</span>
-              <span class="user-desc">Administrator</span>
-            </span>
-          </a>
-
-          <div class="dropdown-menu dropdown-menu-right h-dropdown" aria-labelledby="dropdownMenuButton">
-            <a href="#" class="dropdown-item">
-              <i class="material-icons-two-tone">account_circle</i>
-              <span>My Account</span>
-            </a>
-            <a href="#" class="dropdown-item">
-              <i class="material-icons-two-tone">settings</i>
-              <span>Settings</span>
-            </a>
-            <a href="#" class="dropdown-item">
-              <i class="material-icons-two-tone">support</i>
-              <span>Support</span>
-            </a>
-            <a href="#" class="dropdown-item">
-              <i class="material-icons-two-tone">https</i>
-              <span>Lock Screen</span>
-            </a>
-            <a href="#" class="dropdown-item">
-              <i class="material-icons-two-tone">chrome_reader_mode</i>
-              <span>Logout</span>
-            </a>
-          </div>
-
         </li>
-
+        <li><hr class="dropdown-divider"></li>
+        <li>
+          <a href="#" class="dropdown-item">
+            <i class="material-icons-two-tone">account_circle</i>
+            <span>Log Out</span>
+          </a>
+        </li>
       </ul>
     </div>
-   -->
+
+
+  </div>
 </header>
 
 
